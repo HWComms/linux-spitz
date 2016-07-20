@@ -22,6 +22,13 @@
 	memory {
 		reg = <0x80000000 0x20000000>;
 	};
+	
+	firmware {
+		optee {
+			compatible = "linaro,optee-tz";
+			method = "smc";
+		};
+	};
 
 	regulators {
 		compatible = "simple-bus";
