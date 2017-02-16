@@ -87,7 +87,7 @@ CONFIG_DEVTMPFS=y
 CONFIG_DEVTMPFS_MOUNT=y
 ### Build Firmware for SDIO Wireless into Kernel
 CONFIG_EXTRA_FIRMWARE="ath6k/AR6004/hw3.0/bdata.bin ath6k/AR6004/hw3.0/fw-5.bin"
-CONFIG_EXTRA_FIRMWARE_DIR="/home/vagrant/devel/ath6klfirmware"
+CONFIG_EXTRA_FIRMWARE_DIR="/vagrant/devel/ath6klfirmware"
 # CONFIG_STANDALONE is not set
 CONFIG_DMA_CMA=y
 CONFIG_IMX_WEIM=y
